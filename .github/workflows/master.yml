@@ -14,7 +14,7 @@ jobs:
       - uses: "actions/setup-node@master"
         with:
           node-version: "10.x"
-      - uses: "chrislennon/action-aws-cli@1.1"
+      - uses: "chrislennon/action-aws-cli@1347f1d"
       - run: "npm install"
       - name: "Build the gatsby project"
         run: "npm run build"
